@@ -1,0 +1,35 @@
+body {
+    background-color: #000000;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    color: transparent;
+    font-size: 3rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+}
+
+
+.form-label {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.star-rating {
+    font-size: 3rem;
+    color: #5c5c5c;
+    cursor: pointer;
+}
+
+.star-rating .star:hover,
+.star-rating .star.selected {
+    color: #ffc107;
+}
+
+#feedbackForm {
+    max-width: 500px;
+    margin: auto;
+    background-color: black;
+}
+
